@@ -13,7 +13,9 @@ export default function Welcome({ auth, laravelVersion, phpVersion }: PageProps<
     return (
         <MainLayout>
             <Head title="Welcome" />
+            <div className={'w-full h-full flex justify-center items-center'}>
 
+            </div>
         </MainLayout>
     );
 }
