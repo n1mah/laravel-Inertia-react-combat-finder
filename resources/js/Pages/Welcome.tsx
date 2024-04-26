@@ -13,8 +13,8 @@ export default function Welcome({ auth, laravelVersion, phpVersion }: PageProps<
     return (
         <MainLayout>
             <Head title="Welcome" />
-            <div className={'w-full h-full flex justify-center items-center'}>
-
+            <div className={'w-full h-full flex justify-center items-start py-[120px] text-white'}>
+            Hi
             </div>
         </MainLayout>
     );
