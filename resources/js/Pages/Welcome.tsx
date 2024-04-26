@@ -1,5 +1,6 @@
 import { Link, Head } from '@inertiajs/react';
 import { PageProps } from '@/types';
+import MainLayout from "@/Layouts/MainLayout";
 
 export default function Welcome({ auth, laravelVersion, phpVersion }: PageProps<{ laravelVersion: string, phpVersion: string }>) {
     const handleImageError = () => {
@@ -10,8 +11,9 @@ export default function Welcome({ auth, laravelVersion, phpVersion }: PageProps<
     };
 
     return (
-       <div className={'flex justify-center items-center min-h-[100svh] bg-black'}>
-              <div className={'h-[580px] w-[330px] bg-white rounded-xl sm:w-full sm:h-[100svh]'}></div>
-       </div>
+        <MainLayout>
+            <Head title="Welcome" />
+
+        </MainLayout>
     );
 }
