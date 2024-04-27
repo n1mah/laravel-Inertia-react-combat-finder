@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header
-            className={'flex justify-center items-center w-full bg-white border-2 absolute top-0 h-[120px] sm:h-[15svh] rounded-b-[7svh]'}>
+            className={'flex justify-center items-center w-full bg-white border-b-2 absolute top-0 h-[120px] sm:h-[15svh] rounded-b-[7svh]'}>
             <div className={'h-full w-5/12 flex justify-start items-center'}>
                 <svg width="71" height="66" viewBox="0 0 71 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
