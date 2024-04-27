@@ -1,6 +1,7 @@
 import { Link, Head } from '@inertiajs/react';
 import { PageProps } from '@/types';
 import MainLayout from "@/Layouts/MainLayout";
+import DayBox from "@/Components/Result/DayBox";
 
 export default function Welcome({ auth, laravelVersion, phpVersion }: PageProps<{ laravelVersion: string, phpVersion: string }>) {
     const handleImageError = () => {
@@ -14,35 +15,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }: PageProps<
         <MainLayout>
             <Head title="Welcome" />
             <div className={'w-full h-full flex flex-col justify-start items-center py-[120px] overflow-y-scroll text-white'}>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>by</p>
+                <DayBox />
             </div>
         </MainLayout>
     );
