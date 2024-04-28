@@ -18,6 +18,9 @@ Route::get('/', function () {
 Route::get('/new', function () {
     return Inertia::render('New');
 });
+Route::get('/new/day', function () {
+    return Inertia::render('Day/NewDay');
+});
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
