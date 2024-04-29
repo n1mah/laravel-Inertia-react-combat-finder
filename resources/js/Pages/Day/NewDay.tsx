@@ -1,6 +1,5 @@
 import { Head } from '@inertiajs/react';
 import MainLayout from "@/Layouts/MainLayout";
-import DayBox from "@/Components/Result/DayBox";
 
 export default function NewDay() {
 
