@@ -16,6 +16,10 @@ export default function NewDay() {
                     <p className={'text-[10px] text-center'}>Select User In Day Matches
                         <br/>
                         (with click)</p>
+                    <div className={'flex flex-wrap justify-center items-start py-2 gap-1'}>
+                        <div className={'bg-black text-white px-5 py-1.5 rounded-2xl'}>Nima</div>
+                        <div className={'bg-black text-white px-5 py-1.5 rounded-2xl'}>Mehdi</div>
+                    </div>
                 </div>
                 <button className={'text-black bg-white mt-6 rounded-3xl w-10/12 mx-auto py-3 text-center '}>Start Day</button>
             </div>
